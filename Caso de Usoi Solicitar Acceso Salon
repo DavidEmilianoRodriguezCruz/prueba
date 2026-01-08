@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.10">
   <diagram name="Página-1" id="288H25WbhkgTG1nQILZJ">
-    <mxGraphModel dx="1273" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Personal Autorizado" vertex="1">
+          <mxGeometry height="60" width="30" x="270" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Profesor" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Mantenimiento" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="309" width="440" x="365" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validar Identidad Huella Dactilar" vertex="1">
+          <mxGeometry height="80" width="120" x="525" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validar Identidad Usuario Contraseña" vertex="1">
+          <mxGeometry height="80" width="120" x="525" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Validar Acceso Salón" vertex="1">
+          <mxGeometry height="30" width="140" x="515" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-11" edge="1" parent="1" source="vs3dA-7VxqbPSBYHBol9-9" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="vs3dA-7VxqbPSBYHBol9-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="480" as="sourcePoint" />
+            <mxPoint x="580" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-12" edge="1" parent="1" source="vs3dA-7VxqbPSBYHBol9-1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vs3dA-7VxqbPSBYHBol9-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-13" edge="1" parent="1" source="vs3dA-7VxqbPSBYHBol9-2" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="vs3dA-7VxqbPSBYHBol9-1" value="">
+          <mxGeometry relative="1" width="160" x="-0.9636" y="-91" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="330" y="610" as="sourcePoint" />
+            <mxPoint x="495" y="711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-14" edge="1" parent="1" source="vs3dA-7VxqbPSBYHBol9-3" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="vs3dA-7VxqbPSBYHBol9-1" value="">
+          <mxGeometry relative="1" width="160" x="-0.9636" y="-91" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="380" y="670" as="sourcePoint" />
+            <mxPoint x="545" y="771" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs3dA-7VxqbPSBYHBol9-15" edge="1" parent="1" source="vs3dA-7VxqbPSBYHBol9-4" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.268;entryY=0.879;entryDx=0;entryDy=0;entryPerimeter=0;" target="vs3dA-7VxqbPSBYHBol9-1" value="">
+          <mxGeometry relative="1" width="160" x="-0.9636" y="-91" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="380" y="690" as="sourcePoint" />
+            <mxPoint x="545" y="791" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
